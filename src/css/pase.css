@@ -1,0 +1,33 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-09 20:34:35
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-09-23 15:00:23
+*/
+body,html{width: 100%;}
+body,dl,dd,h1,h2,h3,h4,h5,h6,p,form{margin:0;}
+ol,ul{margin:0; padding:0;}
+ul,ol,li{list-style:none;}
+img{
+    display:block;
+    border:0 none;}
+input{
+    outline:none;}
+body{
+    font-family:"微软雅黑";
+    height: 100%;
+}
+a{
+    text-decoration:none;
+    display:block;
+    color:#333;
+}
+.qufu::after{
+    display:block;
+    content:"";
+    height:0;
+    clear:both;
+    overflow:hidden;
+    visibility:hidden;
+    zoom:1;
+}

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/*
+    存放全局变量
+ */
+/*
+    sass
+        * 兼容css
+        * 变量
+            * $
+            * 用在属性值
+            * 特殊变量：变量
+    首页sass文件
+ */
+.header {
+  height: 25px;
+  width: 1200px;
+  min-width: 1000px;
+  background: #58bc58; }
+
+.header .center {
+  width: 1000px;
+  height: 25px;
+  margin: 0 auto; }
+
+.header .center .ul_1 {
+  overflow: hidden;
+  float: left; }
+
+.header .center .ul_1 li {
+  height: 25px;
+  float: left;
+  padding: 0 4px;
+  font-family: "微软雅黑"; }
+
+.header .center ul li a {
+  display: block;
+  font-size: 13px;
+  color: white;
+  text-align: center; }
+
+.header .center .ul_1 li:nth-child(2n) span {
+  border-bottom: 1px solid white; }
+
+.header .center .ul_1 li:nth-child(5) a, .header .center .ul_2 li:nth-child(3) a {
+  color: #FFCC00; }
+
+.header .center .ul_2 {
+  float: right; }
+
+.header .center .ul_2 li {
+  height: 25px;
+  float: left;
+  padding: 0 5px;
+  font-family: "微软雅黑"; }
+
+.header .center .ul_2 li span {
+  padding: 0 4px; }
+
+.header .center .ul_2 li i {
+  font-size: 13px; }
+
+.header .center .ul_2 li:nth-child(1) span,
+.header .center .ul_2 li:nth-child(4) span,
+.header .center .ul_2 li:nth-child(5) span {
+  border-top: 1px solid white; }
