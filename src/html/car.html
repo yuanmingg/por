@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/pase.css"/>
+    <link rel="stylesheet" href="../css/car.css"/>
+    <link rel="stylesheet" href="../css/font.css"/>
+    <script src="../lib/jquery-3.2.1.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/car.js"></script>
+</head>
+<body>
+    <div id="header" class="qufu">
+        <div class="tops">
+            <ul>
+                <li class="topsLi">
+                    <a href="#">
+                        你好，请登录
+                    </a>
+                    <a href="#" class="topsA">
+                        免费注册
+                    </a>
+                </li>
+                <li class="order">
+                    <a href="#">
+                        我的订单
+                        <div>
+                            <p>代付款订单</p>
+                            <p>待确认收货</p>
+                            <p>待评价交易</p>
+                        </div>
+                    </a>
+                    
+                </li>
+                <li class="order">
+                    <a href="#">
+                        我的收藏
+                        <div>
+                            <p>商品收藏</p>
+                            <p>店铺收藏</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="order">
+                    <a href="#">
+                        客户服务
+                        <div>
+                            <p>购物指南</p>
+                            <p>售后服务</p>
+                            <p>商家服务</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        成为供应商
+                    </a>
+                </li>
+            </ul>
+        </div> 
+        <div class="logo">
+            <h1><img src="../img/logo.png"/></h1>
+            <!-- 流程图 -->
+            <div class="flow">
+                <ul>
+                    <li>
+                        <i class="icon-gouwuche1"></i>
+                        <hr />
+                        <span></span>
+                        <p>我的购物车</p>
+                    </li>
+                    <li>
+                        <i class="icon-dingdan"></i>
+                        <hr />
+                        <span></span>
+                        <p>确定订单/结算</p>
+                    </li>
+                    <li>
+                        <i class="icon-zhifu"></i>
+                        <hr />
+                        <span></span>
+                        <p>生成订单/支付</p>
+                    </li>
+                    <li>
+                        <i class="icon-wancheng"></i>
+                        <hr />
+                        <span></span>
+                        <p>完成支付/等待出货</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- 流程图 -->
+        </div>
+    </div>
+    <div id="main">
+        <div class="car qufu">
+            <h2>我的购物车
+                <p>查看购物车中所添加的商品；增加减少数量、并勾选确认想要购买的商品进入下一步操作。</p>
+            </h2>
+            <p>
+                购物车状态：
+                <span></span>
+                <i></i>
+            </p>
+        </div>
+        <div class="car_detail qufu">
+            <ul>
+                <li>
+                    <input type="checkbox" />
+                    全选
+                </li>
+                <li>商品</li>
+                <li>数量</li>
+                <li>单价(元)</li>
+                <li>优惠</li>
+                <li>金额(元)</li>
+            </ul>
+        </div>
+        <div class="car_mod">
+            <p>
+                <input type="checkbox" />
+                央广购物
+                <i>
+                    <img src="../img/list_s1.png"/>
+                </i>
+            </p>
+            <div class="car_js">  
+               <!--  <div class="car_mod_img qufu">
+                    <input type="checkbox" />
+                    <img src="../img/detail1.jpg" />
+                    <div class="car_mod_number">
+                        <p>Jowissa璀璨钢带晶钻表 货号110229</p>
+                        <ul>
+                            <li class="qufu">
+                                <p>
+                                    <input type="checkbox" />
+                                    颜色：无；规格：黑色表盘J5.008.M
+                                </p>
+                                <a href="javascript:;">
+                                    <span class="number_sub">-</span>
+                                    <input type="text" value="1" />
+                                    <span class="number_plus">+</span>
+                                </a>
+                                <span>233.00</span>
+                                <span>22.00</span>
+                            </li>
+                            
+                            <span><i class="icon-wujiaoxing"></i><i class="icon-lajixiang"></i></span>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="car_close qufu">
+            <p class="qufu">
+                <input type="checkbox" />
+                全选
+                <a href="javascript:;">删除 </a>
+                <span>选购商品种类：<i>5</i>种</span>
+                <span>选购数量总计：<i>5</i>件</span>
+                <span>商品金额总计（不包含运费）：<i>11016.00元</i></span>
+                <span>结算</span>
+            </p>
+        </div>
+    </div>
+    <div id="footer" class="qufu">
+        <!-- 浏览记录 -->
+            <div class="browse">
+                <p>
+                    浏览记录
+                </p>
+                <ul>
+                    <li>
+                        <img src="../img/list1.jpg" />
+                        <p>Jowissa璀璨钢带晶钻表 货号110229</p>
+                        <span><i>￥</i>2460.00</span>
+                    </li>
+                    <li>
+                        <img src="../img/list1.jpg" />
+                        <p>Jowissa璀璨钢带晶钻表 货号110229</p>
+                        <span><i>￥</i>2460.00</span>
+                    </li>
+                </ul>
+            </div>
+        <!-- 浏览记录 -->
+        <div class="foot">
+            <p class="qufu">
+                <span>
+                    轻松购物
+                    <i>
+                        <img src="../img/foot1.png" />
+                    </i>
+                </span>
+                <span>
+                    天天低价
+                    <i>
+                        <img src="../img/foot1.png" />
+                    </i>
+                </span>
+                <span>
+                    质检严选
+                    <i>
+                        <img src="../img/foot1.png" />
+                    </i>
+                </span>
+                <span>
+                    正品保障
+                    <i>
+                        <img src="../img/foot1.png" />
+                    </i>
+                </span>
+            </p>
+            <div class="foot_an qufu">
+                <span class="qufu">
+                    <h5>公告</h5>
+                    <a href="#">【公告】关于8月15日至9月6日期间福建省厦门市停运通知</a>
+                    <a href="#">【公告】央广购物会员体系升级 8月会员月会员福利全面升值</a>
+                    <a href="#">【公告】央广购物天津有线频道位置前移至139 开启精彩新生活</a>
+                    <a href="#">【公告】关于8月15日至9月6日期间福建省厦门市停运通知</a>
+                </span>
+                <h6>
+                    购物指南
+                    <a href="#">免费注册</a>
+                    <a href="#">购物流程</a>
+                    <a href="#">用户注册协议</a>
+                    <a href="#">电子发票</a>
+                </h6>
+                <h6>
+                    商家服务
+                    <a href="#">招商标准</a>
+                    <a href="#">平台总则</a>
+                    <a href="#">入驻注意事项</a>
+                    <a href="#">招商资质标准</a>
+                </h6>
+                <h6>
+                    支付配送
+                    <a href="#">支付方式</a>
+                    <a href="#">配饰范围</a>
+                    <a href="#">配送时间</a>
+                    <a href="#">购物卡</a>
+                </h6>
+                <h6>
+                    会员中心
+                    <a href="#">会员等级</a>
+                    <a href="#">会员权益</a>
+                    <a href="#">购物金</a>
+                    <a href="#">找回密码</a>
+                </h6>
+                <h6>
+                    售后服务
+                    <a href="#">售后服务政策</a>
+                    <a href="#">特色服务</a>
+                    <a href="#">无忧购物</a>
+                    <a href="#">权威监督</a>
+                </h6>
+            </div>
+            <div class="foot_er qufu">
+                <p>
+                    <a href="#">首页</a>
+                    <a href="#">招商合作</a>
+                    <a href="#">关于央广购物</a>
+                    <a href="#">联系我们</a>
+                    <a href="#">成为供应商</a>
+                    <a href="#">招贤纳士</a>
+                </p>
+                <p>
+                    <a href="#"><i></i>京公网安备：11011502002190</a>
+                    <a href="#">京ICP备10038858号</a>
+                    <a href="#">食品流通许可证编号：SP1101151210063489</a>
+                    <a href="#">信息网络传播视听节目许可证 0102002号</a>
+                </p>
+                <p>
+                    <span>Copyright©2010-2017 cnrmall.com All Rights Reserved    </span>
+                    <span>服务热线：4008-518-518</span>
+                </p>
+                <p>
+                    <span><img src="../img/foot_er2.png"/></span>
+                    <span><img src="../img/foot_er3.png"/></span>
+                    <span><img src="../img/foot_er4.png"/></span>
+                    <span><img src="../img/foot_er5.png"/></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.logo > h2 { font-size: 14px; color: #666; float: right; padding-right: 100px; margin-top: 70px; }
+
+.logo > h2 > a { float: right; padding: 0 5px; color: skyblue; }
+
+.reg { background: #fafafa; padding: 20px 0; }
+
+.reg_box { width: 1000px; margin: 0px auto; }
+
+.reg_box > img { margin-top: 30px; float: left; }
+
+.reg_pa { background: #fff; float: left; padding: 20px; }
+
+.reg_pa > a { width: 350px; height: 50px; font-size: 20px; line-height: 50px; background: #f15c18; margin: 20px 0 20px 40px; color: #fff; text-align: center; }
+
+.reg_a { height: 40px; border-bottom: 1px solid #ccc; padding-bottom: 10px; }
+
+.reg_a > a { display: inline-block; width: 240px; color: #f15c18; text-align: center; font-size: 20px; line-height: 40px; }
+
+.reg_input { padding: 20px 40px; }
+
+.reg_input > p { width: 350px; height: 50px; border: 1px solid #ccc; line-height: 50px; }
+
+.reg_input > p:nth-of-type(1) { border-bottom: 0px; }
+
+.reg_input > p:nth-of-type(2) { border-bottom: 0px; }
+
+.reg_input > p:nth-of-type(3) { position: relative; }
+
+.reg_input > p > span { padding: 0 20px; width: 60px; display: inline-block; font-size: 14px; }
+
+.reg_input > p > input { height: 25px; border: 0px; }
+
+.reg_input > p > i { position: absolute; width: 148px; height: 50px; background: #eee; color: #000; font-size: 40px; text-align: center; right: 0px; }
+
+.reg_input > p > a { position: absolute; width: 148px; height: 50px; background: #777; opacity: 0.9; display: none; top: 0px; left: 272px; color: #fff; text-align: center; left: 203px; }
+
+.reg_check { padding: 0 90px 0 40px; font-size: 12px; }
+
+.reg_check > a { display: inline-block; float: right; color: blue; }
+
+.reg_xi { font-family: font; padding-left: 40px; }
