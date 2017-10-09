@@ -11,7 +11,7 @@ gulp.task('ceshi',function(){
     // 匹配文件成功后，返回文档流
     // gulp.src(['./src/sass/*.scss','!./src/sass/var.scss'])
     // gulp.src('./src/**/*.scss')
-    gulp.src('./src/sass/index.scss')
+    gulp.src('./src/sass/*.scss')
 
     // 编译sass文件
     // .pipe(sass({outputStyle:'compact'}).on('error',sass.logError))
@@ -22,7 +22,7 @@ gulp.task('ceshi',function(){
 //监听sass文件修改
 gulp.task('jtSass',function(){
     // 监听home.scss文件，如果有修改，则自动compileSass任务
-    gulp.watch('./src/sass/index.scss',['ceshi']);
+    gulp.watch('./src/sass/*.scss',['ceshi']);
 });
 // //合并压缩
 // var concat=require('gulp-concat');
